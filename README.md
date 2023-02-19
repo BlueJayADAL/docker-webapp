@@ -4,7 +4,7 @@ A Docker Web Application that Demonstrates the Use of a Dockerfile
 ## Usage
 + Firstly, download the source code to your machine using git command: `git clone https://github.com/BlueJayADAL/docker-webapp.git`
 + Secondly, build a docker image using the given files. 
-`cd docker-webapp`
+`cd docker-webapp;`
 `docker build -t YOUR_DOCKER_HUB_NAME/catnip .`
 where *YOUR_DOCKER_HUB_NAME* should be replaced by your user name on docker hub.
 + Thirdly, run the web app with command:
